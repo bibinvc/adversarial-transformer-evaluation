@@ -1,6 +1,6 @@
 # Adversarial Transformer Evaluation
 
-An AI-assisted personal implementation project in PyTorch. It measures how constrained input changes affect a small causal transformer's task accuracy, activations, attention and output distributions. It includes runnable methods, invariant tests, an explicit evaluation protocol, per-example results and uncertainty estimates.
+A personal implementation project in PyTorch. It measures how constrained input changes affect a small causal transformer's task accuracy, activations, attention and output distributions. It includes runnable methods, invariant tests, an explicit evaluation protocol, per-example results and uncertainty estimates.
 
 The task is deliberately small: classify the opcode family (`ADD`, `SUB` or `XOR`) in synthetic, fixed-length opcode-like sequences. This is **not** a generative LLM, a reverse-engineering tool, a DRM implementation or an experiment on protected software. Results do not establish the effectiveness of a software defence.
 
@@ -50,7 +50,7 @@ Generated results should be read together with the model's clean accuracy. A cha
 
 ## Scope and authorship
 
-This project was created with AI coding assistance and is intended for study and reproducible portfolio review. No employer system, private data, proprietary binary, commercial LLM, closed-weight API or real DRM stack is involved. There is no publication or prior professional deployment claim. Future work could evaluate language-model tasks, stronger independent training seeds and external model families after suitable compute and a defined authorization/safety scope are available.
+This project is intended for study and reproducible portfolio review. No employer system, private data, proprietary binary, commercial LLM, closed-weight API or real DRM stack is involved. There is no publication or prior professional deployment claim. Future work could evaluate language-model tasks, stronger independent training seeds and external model families after suitable compute and a defined authorization/safety scope are available.
 
 ## Primary references
 
